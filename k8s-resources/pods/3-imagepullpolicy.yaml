@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: imagepullpoicy
+spec:
+  containers:
+    - name: nginx
+      image: nginx:1.14.2
+      imagePullPolicy: always
+      ports:
+        - containerPort: 80
