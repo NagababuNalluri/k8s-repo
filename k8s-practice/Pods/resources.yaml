@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: stress1
+  name: stress2
 spec:
   containers:
-    - image: nagababunalluri/stress1
-      name: stress1
+    - image: nagababunalluri/stress2
+      name: stress2
       imagePullPolicy: Always
