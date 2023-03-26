@@ -1,0 +1,9 @@
+# Creating pod in default namespace
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  container:
+    - image: nginx:1.14.2
+      name: nginx
