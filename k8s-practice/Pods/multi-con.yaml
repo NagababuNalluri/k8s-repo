@@ -8,4 +8,5 @@ spec:
       image: nginx:1.14.2
     - name: sidecar
       image: almalinux
+      command: ["sleep","200"]
 
