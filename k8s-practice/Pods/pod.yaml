@@ -1,8 +1,19 @@
 # Creating pod in default namespace
+#apiVersion: v1
+#kind: Pod
+#metadata:
+#  name: nginx
+#spec:
+#  containers:
+#    - image: nginx:1.14.2
+#      name: nginx"
+
+# Creating pod in roboshop namespace
 apiVersion: v1
 kind: Pod
 metadata:
   name: nginx
+  namespace: roboshop
 spec:
   containers:
     - image: nginx:1.14.2
