@@ -1,4 +1,4 @@
 FROM almalinux
 RUN yum update -y
 RUN yum install stress-ng -y
-CMD ["stress-ng","sleep","200"]
+CMD ["stress-ng","--help"]
